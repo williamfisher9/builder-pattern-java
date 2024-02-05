@@ -22,6 +22,30 @@ public class Account {
         this.overdraftAllowed = builder.isOverdraftAllowed();
     }
 
+    public AccountType getAccountType() {
+        return accountType;
+    }
+
+    public BigDecimal getBalance() {
+        return balance;
+    }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public String getIban() {
+        return iban;
+    }
+
+    public boolean isOverdraftAllowed() {
+        return overdraftAllowed;
+    }
+
+    public Currency getCurrency() {
+        return currency;
+    }
+
     @Override
     public String toString() {
         return "Account{" +
