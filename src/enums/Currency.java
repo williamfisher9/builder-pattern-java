@@ -2,8 +2,7 @@ package enums;
 
 public enum Currency {
     USD("US Dollar", "USD"),
-    JPY("Japanese Yen", "JPY"),
-    JOD("Jordan Dinar", "JOD");
+    JPY("Japanese Yen", "JPY");
 
     private String name;
     private String code;
